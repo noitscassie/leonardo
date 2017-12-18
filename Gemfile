@@ -8,6 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+# PJ: Use Carrierwave to handle file uploads
+gem 'carrierwave', '~> 1.0'
 # PJ: Replace SQLite with Postgres as database
 gem 'pg'
 # Use Puma as the app server
