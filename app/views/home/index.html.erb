@@ -4,5 +4,5 @@
 <% @posts.each do |post| %>
   <img src=<%= post.image %>>
   <h3><%= post.description %></h3>
-  <p><%= post.created_at %></p>
+  <p>Created at <%= post.created_at %></p>
 <% end %>
