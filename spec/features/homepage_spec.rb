@@ -10,4 +10,10 @@ feature 'Homepage' do
     visit root_url
     expect(page).to have_link 'New Post'
   end
+
+  scenario 'Clicking the New Post button takes the user to the new post page' do
+    visit root_url
+    click_link 'New Post'
+    expect(page).to have_content 'Add new post'
+  end
 end
