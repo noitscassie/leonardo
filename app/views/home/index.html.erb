@@ -1,1 +1,8 @@
 <%= link_to 'New Post', new_post_url %>
+
+<h2>Posts</h2>
+<% @posts.each do |post| %>
+  <img src=<%= post.image %>>
+  <h3><%= post.description %></h3>
+  <p><%= post.created_at %></p>
+<% end %>
