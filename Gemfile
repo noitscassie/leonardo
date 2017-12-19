@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.4'
 # PJ: Use Carrierwave to handle file uploads
 gem 'carrierwave', '~> 1.0'
+# PJ: Use Devise to authenticate users
+gem 'devise'
 # PJ: Replace SQLite with Postgres as database
 gem 'pg'
 # Use Puma as the app server
