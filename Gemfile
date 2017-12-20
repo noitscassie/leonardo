@@ -21,6 +21,8 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
+# PJ: Use OAuth Google gem to allow for Google authentication
+gem 'omniauth-google-oauth2'
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
@@ -47,6 +49,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   # PJ: Use Database Cleaner to ensure a clean test environment
   gem 'database_cleaner'
+  # PJ: Use dotenv to set environment variables
+  gem 'dotenv-rails'
   # PJ: Use FactoryBot to allow signed-in state in tests
   gem 'factory_bot_rails'
   gem 'selenium-webdriver'
