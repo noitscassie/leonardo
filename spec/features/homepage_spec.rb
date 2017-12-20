@@ -12,6 +12,8 @@ feature 'Homepage' do
   end
 
   scenario 'Clicking the New Post button takes the user to the new post page' do
+    user = FactoryBot.create(:user)
+    login_as(user, :scope => :user)
     visit root_url
     click_link 'New Post'
     expect(page).to have_content 'Add new post'
