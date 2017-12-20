@@ -47,6 +47,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   # PJ: Use Database Cleaner to ensure a clean test environment
   gem 'database_cleaner'
+  # PJ: Use FactoryBot to allow signed-in state in tests
+  gem 'factory_bot_rails'
   gem 'selenium-webdriver'
   # PJ: Use RSpec as testing framework
   gem 'rspec-rails'
