@@ -23,6 +23,8 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # PJ: Use OAuth Google gem to allow for Google authentication
 gem 'omniauth-google-oauth2'
+# PJ: Use OAuth Facebook gem to allow for Facebook authentication
+gem 'omniauth-facebook'
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
